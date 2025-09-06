@@ -1,5 +1,4 @@
-﻿using CarWash.models;
-
+﻿
 namespace ConsoleApplication1.tests;
 
 using CarWash.models;
