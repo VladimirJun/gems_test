@@ -8,3 +8,13 @@
 /.idea/.idea.CarWash/.idea/
 /bin/Debug/
 /bin/Debug/net8.0/
+# Rider / JetBrains
+.idea/
+*.DotSettings.user
+
+# Build
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
