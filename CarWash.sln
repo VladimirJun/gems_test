@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarWash", "CarWash.csproj", "{DB4AC427-DCF9-4965-8D4E-324F7BDAC699}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarWashTests", "CarWashTests\CarWashTests.csproj", "{E8E84067-CCF9-43DA-9613-9C0F8BDAEAF7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB4AC427-DCF9-4965-8D4E-324F7BDAC699}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB4AC427-DCF9-4965-8D4E-324F7BDAC699}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB4AC427-DCF9-4965-8D4E-324F7BDAC699}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB4AC427-DCF9-4965-8D4E-324F7BDAC699}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8E84067-CCF9-43DA-9613-9C0F8BDAEAF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8E84067-CCF9-43DA-9613-9C0F8BDAEAF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8E84067-CCF9-43DA-9613-9C0F8BDAEAF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8E84067-CCF9-43DA-9613-9C0F8BDAEAF7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
