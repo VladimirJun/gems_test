@@ -3,3 +3,8 @@
 /CarWashTests/bin/
 /CarWashTests/obj/
 /obj/
+
+/.idea/.idea.CarWash/
+/.idea/.idea.CarWash/.idea/
+/bin/Debug/
+/bin/Debug/net8.0/
