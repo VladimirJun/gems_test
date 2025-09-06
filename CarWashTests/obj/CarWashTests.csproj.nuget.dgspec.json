@@ -43,6 +43,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.14.1, )"
+            },
             "xunit.assert": {
               "target": "Package",
               "version": "[2.5.3, )"
@@ -117,7 +121,7 @@
           "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
-              "version": "[17.8.0, )"
+              "version": "[17.14.1, )"
             },
             "coverlet.collector": {
               "target": "Package",
