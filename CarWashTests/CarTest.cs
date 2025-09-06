@@ -1,9 +1,6 @@
 ﻿using CarWash.models;
 
-namespace ConsoleApplication1.tests;
-
-
-using Xunit;
+namespace CarWashTests;
 
 public class CarTest
 {
