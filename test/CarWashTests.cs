@@ -74,7 +74,6 @@ namespace CarWash.test
             }
             catch (ArgumentOutOfRangeException)
             {
-                // всё ок
             }
         }
 
@@ -87,7 +86,6 @@ namespace CarWash.test
             }
             catch (ArgumentOutOfRangeException)
             {
-                // всё ок
             }
         }
     }
