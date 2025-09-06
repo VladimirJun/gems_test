@@ -1,14 +1,21 @@
-﻿namespace CarWash.models
+﻿
+namespace CarWash.models
 {
-    public class Car(CarType type)
+    public class Car
     {
-        public CarType Type { get; } = type;
-        public int WashTime { get; } = type switch
+        public CarType Type { get; }
+        public int RemainingWashTime { get; set; }
+
+        public Car(CarType type)
         {
-            CarType.Passenger => 5,
-            CarType.Suv => 8,
-            CarType.Van => 10,
-            _ => throw new ArgumentOutOfRangeException()
-        };
+            Type = type;
+            RemainingWashTime = type switch
+            {
+                CarType.Passenger => 5,
+                CarType.Suv => 8,
+                CarType.Van => 10,
+                _ => throw new ArgumentOutOfRangeException()
+            };
+        }
     }
 }
