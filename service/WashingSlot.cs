@@ -8,6 +8,7 @@ namespace CarWash.service
         public Car Car { get; }
         public int RemainingTime { get; private set; }
 
+        
         public WashingSlot(Car car)
         {
             Car = car;
