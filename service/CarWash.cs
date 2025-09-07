@@ -38,29 +38,24 @@ namespace CarWash.service
         {
             for (int t = 0; t < minutes; t++)
             {
-                for (int i = 0; i < _stations; i++)
+                for (int i = 0; i < _stationsList.Count; i++)
                 {
+                    _stationsList[i] ??= _queue.Count > 0 ? _queue.Dequeue() : null;
+
                     if (_stationsList[i] != null)
                     {
                         _stationsList[i]!.RemainingWashTime--;
                         _revenue += 30;
 
                         if (_stationsList[i]!.RemainingWashTime <= 0)
-                        {
                             _stationsList[i] = null;
-                        }
-                    }
-                }
-
-                for (int i = 0; i < _stations; i++)
-                {
-                    if (_stationsList[i] == null && _queue.Count > 0)
-                    {
-                        _stationsList[i] = _queue.Dequeue();
                     }
                 }
             }
         }
+
+
+
 
         public decimal GetRevenue() => _revenue;
         public decimal QueueLen() => _queue.Count;
